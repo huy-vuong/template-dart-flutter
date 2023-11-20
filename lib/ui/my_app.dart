@@ -22,11 +22,21 @@ class MyApp extends StatelessWidget {
           theme: ThemeData(
             useMaterial3: true,
             colorScheme: dynamicLightColorScheme ?? defaultLightColorScheme,
+            textTheme: ThemeData(
+              colorScheme: dynamicLightColorScheme ?? defaultLightColorScheme,
+              fontFamily: 'Lexend',
+              fontFamilyFallback: const ['Noto Sans'],
+            ).textTheme,
           ),
           darkTheme: ThemeData(
             useMaterial3: true,
             brightness: Brightness.dark,
             colorScheme: dynamicDarkColorScheme ?? defaultDarkColorScheme,
+            textTheme: ThemeData(
+              colorScheme: dynamicDarkColorScheme ?? defaultDarkColorScheme,
+              fontFamily: 'Lexend',
+              fontFamilyFallback: const ['Noto Sans'],
+            ).textTheme,
           ),
           themeMode: ThemeMode.system,
           home: const MyHomePage(title: 'Flutter Demo Home Page'),
