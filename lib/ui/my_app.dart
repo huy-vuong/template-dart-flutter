@@ -16,17 +16,17 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DynamicColorBuilder(
-      builder: (lightColorScheme, darkColorScheme) {
+      builder: (dynamicLightColorScheme, dynamicDarkColorScheme) {
         return MaterialApp(
           title: 'Flutter Demo',
           theme: ThemeData(
-            colorScheme: lightColorScheme ?? defaultLightColorScheme,
             useMaterial3: true,
+            colorScheme: dynamicLightColorScheme ?? defaultLightColorScheme,
           ),
           darkTheme: ThemeData(
-            brightness: Brightness.dark,
-            colorScheme: darkColorScheme ?? defaultDarkColorScheme,
             useMaterial3: true,
+            brightness: Brightness.dark,
+            colorScheme: dynamicDarkColorScheme ?? defaultDarkColorScheme,
           ),
           themeMode: ThemeMode.system,
           home: const MyHomePage(title: 'Flutter Demo Home Page'),
