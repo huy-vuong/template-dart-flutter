@@ -32,7 +32,7 @@ class MyApp extends StatelessWidget {
             colorScheme: darkColorScheme ?? defaultDarkColorScheme,
             useMaterial3: true,
           ),
-          themeMode: ThemeMode.dark,
+          themeMode: ThemeMode.system,
           home: const MyHomePage(title: 'Flutter Demo Home Page'),
           debugShowCheckedModeBanner: false,
         );
