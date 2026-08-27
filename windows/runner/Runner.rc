@@ -93,7 +93,7 @@ BEGIN
             VALUE "FileDescription", "templatedartflutter" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
             VALUE "InternalName", "templatedartflutter" "\0"
-            VALUE "LegalCopyright", "Copyright (C) 2023 com.huyvuong. All rights reserved." "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2026 com.huyvuong. All rights reserved." "\0"
             VALUE "OriginalFilename", "templatedartflutter.exe" "\0"
             VALUE "ProductName", "templatedartflutter" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
