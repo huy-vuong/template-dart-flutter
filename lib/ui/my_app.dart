@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
             colorScheme: dynamicLightColorScheme ?? defaultLightColorScheme,
             textTheme: ThemeData(
               colorScheme: dynamicLightColorScheme ?? defaultLightColorScheme,
-              fontFamily: 'Lexend',
+              fontFamily: 'Readex Pro',
               fontFamilyFallback: const ['Noto Sans'],
             ).textTheme,
           ),
@@ -34,7 +34,7 @@ class MyApp extends StatelessWidget {
             colorScheme: dynamicDarkColorScheme ?? defaultDarkColorScheme,
             textTheme: ThemeData(
               colorScheme: dynamicDarkColorScheme ?? defaultDarkColorScheme,
-              fontFamily: 'Lexend',
+              fontFamily: 'Readex Pro',
               fontFamilyFallback: const ['Noto Sans'],
             ).textTheme,
           ),

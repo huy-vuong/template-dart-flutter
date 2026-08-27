@@ -71,26 +71,20 @@ flutter:
   # https://flutter.dev/assets-and-images/#from-packages
 
   fonts:
-    - family: Lexend
+    - family: Readex Pro
       fonts:
-        - asset: fonts/Lexend-Thin.ttf
-          weight: 100
-        - asset: fonts/Lexend-ExtraLight.ttf
+        - asset: fonts/ReadexPro-ExtraLight.ttf
           weight: 200
-        - asset: fonts/Lexend-Light.ttf
+        - asset: fonts/ReadexPro-Light.ttf
           weight: 300
-        - asset: fonts/Lexend-Regular.ttf
+        - asset: fonts/ReadexPro-Regular.ttf
           weight: 400
-        - asset: fonts/Lexend-Medium.ttf
+        - asset: fonts/ReadexPro-Medium.ttf
           weight: 500
-        - asset: fonts/Lexend-SemiBold.ttf
+        - asset: fonts/ReadexPro-SemiBold.ttf
           weight: 600
-        - asset: fonts/Lexend-Bold.ttf
+        - asset: fonts/ReadexPro-Bold.ttf
           weight: 700
-        - asset: fonts/Lexend-ExtraBold.ttf
-          weight: 800
-        - asset: fonts/Lexend-Black.ttf
-          weight: 900
     - family: Noto Sans
       fonts:
         - asset: fonts/NotoSans-Thin.ttf
